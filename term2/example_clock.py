@@ -3,8 +3,7 @@ from time import sleep
 secend = 0
 mineute = 0
 hour = 0
-
-for i in range(1000):
+while True:
     secend += 1
     print(hour,":",mineute,":",secend)
     sleep(1)
